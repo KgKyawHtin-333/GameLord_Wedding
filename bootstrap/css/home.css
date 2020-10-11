@@ -6,7 +6,8 @@
 }
 
 img.logo-image{
-	max-width: 4%;
+	max-width: 5%;
+
 	 }
 .nav-bg-color{
 		background-color: lightgray;
@@ -30,6 +31,9 @@ img.logo-image{
 .profolio,.lastest_post,.content,.rights,.What_we_offer{
 		color:#EE959E;
 	
+	}
+	a.navbar-brand{
+		font-size: 2rem;
 	}
 
 /* end of navigation */
@@ -75,13 +79,7 @@ hr.divided_by:before {
 
 
 /* navigation */
-/* .navlink :hover{
-	color:#EE959E;
-	border-bottom: 2px solid #CD5E77;
-	font-size:1.7rem;
-	padding:15px 0;
-	transition: all 0.10s ease-in;
-} */
+
 
 .container img{
 	width:100%;
@@ -147,6 +145,23 @@ hr.divided_by:before {
 .latest_a{
 	font-family:'peddana';
 }
+
+.bg-graylight{
+	background-color:lightgray;
+}
+iframe{
+	size: 30px;
+
+}
+.contact_text{
+	font-family: 'roboto';
+}
+
+
+
+
+
+
 
 
 
