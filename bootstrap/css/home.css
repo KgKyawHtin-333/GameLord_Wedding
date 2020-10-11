@@ -83,6 +83,12 @@ hr.divided_by:before {
 
 
 /* navigation */
+<<<<<<< HEAD
+.nav-link{
+	font-size: 1.5rem;
+	font-family: 'Roboto';
+=======
+>>>>>>> 287cce9ca537d758b362fe9a2c2d7aec6c76ce11
 
 /* .navlink :hover{
 	color:#EE959E;

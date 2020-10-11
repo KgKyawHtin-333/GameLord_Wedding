@@ -1,62 +1,107 @@
+.nav-link{
+	font-size: 1.5rem;
+	font-family: 'Roboto';
+
+}
+/*.navlink:hover{
+	color:#EE959E;
+	border-bottom: 2px solid #CD5E77;
+	font-size:1.7rem;
+	padding:15px 0;
+	transition: all 0.10s ease-in;
+}*/
+.nav-bg-color a{
+	color:black;
+}
+.navbar-brand{
+	font-family: 'niconne';
+	font-size: 30px;
+}
+.navbar-toggler .navbar-toggler-icon{
+ color:#EE959E; 
+}
 .text_in_image{
-		position: absolute;
-		top: 120px;
-		left: 180px;
-		font-size: 40px;
-		color: white;
-		font-family: niconne;
-		word-spacing: 10px;
-		}
+	position: absolute;
+	top: 120px;
+	left: 180px;
+	font-size: 40px;
+	color: white;
+	font-family: niconne;
+	word-spacing: 10px;
+}
 
-		.margin{
-			max-width: 30.0rem;
-			border-width: .2rem;
-			border-color: white;
-		}
+.margin{
+	max-width: 30.0rem;
+	border-width: .2rem;
+	border-color: white;
+}
 
-		hr.style-seven {
-	    overflow: visible; /* For IE */
-	    height: 30px;
-	    width: 20%;
-	    border-style: solid;
-	    border-color: #EE959E;
-	    border-width: 1px 0 0 0;
-	    border-radius: 20px;
-		}
-		hr.style-seven:before { /* Not really supposed to work, but does */
-		    display: block;
-		    content: "";
-		    height: 30px;
-		    margin-top: -31px;
-		    border-style: solid;
-		    border-color: #EE959E;
-		    border-width: 0 0 1px 0;
-		    border-radius: 20px;
-		}
-		div.Img img{
-			width: 100% !important;
-			height: 500px !important;
+hr.style-seven {
+	overflow: visible; /* For IE */
+	height: 30px;
+	width: 20%;
+	border-style: solid;
+	border-color: #EE959E;
+	border-width: 1px 0 0 0;
+	border-radius: 20px;
+}
+hr.style-seven:before { /* Not really supposed to work, but does */
+	display: block;
+	content: "";
+	height: 30px;
+	margin-top: -31px;
+	border-style: solid;
+	border-color: #EE959E;
+	border-width: 0 0 1px 0;
+	border-radius: 20px;
+}
+div.Img img{
+	width: 100% !important;
+	height: 500px !important;
 	
-			}
-			div.card img{
-				width: 260px !important;
-				height: 280px !important;
-			}
-			.title{
-				font-family: 'niconne';
-				font-size: 50px;
-				color: #EE959E;
-			}
-			div.card-body p, a{
-				font-family: 'roboto';
-				font-size: 18px;
-			}
+}
+.title{
+	font-family: 'niconne';
+	font-size: 50px;
+	color: #EE959E;
+}
+div.card img{
+	height: 280px !important;
+	object-fit: cover;
+}
+			
+div.card-body p, a{
+	font-family: 'roboto';
+	font-size: 18px;
+}
 
-			div.card{
-				opacity: 0.8;
-				height: 27rem;
-				/*background-color:#EE959E; */
-			}
-			div.card:hover{
-				opacity: 1;
-			}
+div.card-body h4{
+	font-family: 'niconne';
+	font-size: 20px;
+	color: #EE959E;
+}
+div.card img:hover{
+	transform: scale(0.95);
+}
+div.card img{
+	transition: all 0.5s ease;
+}
+.footer-section{
+	background-color:pink;
+
+}
+.social-media .facebook,.social-media .instagram,.social-media .twitter{
+	color:black;
+}
+.facebook:hover{
+	font-size:20px;
+	color:blue;
+}
+.instagram:hover{
+	font-size:20px;
+	color:#F5A9D0;
+}
+.twitter:hover{
+	font-size: 20px;
+	color:#58D3F7;
+}
