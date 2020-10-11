@@ -1,12 +1,38 @@
-.logo_image{
-	max-width: 100%;
-	height: auto;
+/* start of navigation */
+.nav-link{
+	font-size: 1.5rem;
+	font-family: 'lobster';
+
 }
-.divided_by{
-	max-width:6rem;
-	border-style:solid;
-	color:palevioletred;
-}
+
+img.logo-image{
+	max-width: 4%;
+	 }
+.nav-bg-color{
+		background-color: lightgray;
+	}
+.nav-bg-color a{
+		color:#CD5E77;
+	}
+	
+.navbar-toggler-icon{
+	 background-color:#EE959E; 
+	}
+.navbar-brand,.foral_design,.cake_design,.dress_design,.jewelry{
+		font-family: 'niconne';
+	}
+.What_we_offer,h2.carousel_text,.profolio,.lastest_post,.carousel_text,.content,.rights,.content_one{
+		font-family:'lobster';
+		
+	}
+.profolio,.lastest_post,.content,.rights,.What_we_offer{
+		color:#EE959E;
+	
+	}
+/* end of navigation */
+
+
+
 
  
  .card-body img{
@@ -14,72 +40,68 @@
     max-width: 100%;
 	height: auto;
     
-}
+} 
+/* .logo,navbar-nav{
+	display:inline;
+} */
+
  /* hr line */
- hr.divided_by{
-	display: block;
+ hr.divided_by {
+	max-width:6rem;
+    overflow: visible;
+    height: 30px;
+    width: 25%;
+    border-style: solid;
+    border-color: #EE959E;
+    border-width: 1px 0 0 0;
+    border-radius: 20px;
+}
+hr.divided_by:before { 
+    display: block;
+    content: "";
     height: 30px;
     margin-top: -31px;
     border-style: solid;
     border-color: #EE959E;
-    border-width: 0 0 3px 0;
-    border-radius: 10px;
- }
-.bg-color{
-	background-color:#EE959E ;
+    border-width: 0 0 1px 0;
+    border-radius: 20px;
 }
+/* end of hr line */
+
+/*What We Offer */
+
+/* All header and paragraph */
 
 
-/* We Offer */
 
 
-.navbar-brand,.foral_design,.cake_design,.dress_design,.jewelry{
-	font-family: 'niconne';
-}
-
-.What_we_offer,h2.carousel_text,.profolio,.lastest_post,.carousel_text,.content,.rights,.content_one{
-	font-family:'lobster';
-	
-}
-.profolio,.lastest_post,.content,.rights,.What_we_offer{
-	color:#EE959E;
-
-}
 
 /* navigation */
-.nav-link{
-	font-size: 1.5rem;
-	font-family: 'lobster';
 
-}
-.navlink:hover{
+/* .navlink :hover{
 	color:#EE959E;
 	border-bottom: 2px solid #CD5E77;
 	font-size:1.7rem;
 	padding:15px 0;
 	transition: all 0.10s ease-in;
-}
-.nav-bg-color a{
-	color:black;
-}
+} */
 
-.navbar-toggler .navbar-toggler-icon{
- color:#EE959E; 
-}
 .container img{
 	width:100%;
 	height:100%;
 }
-.map,.phone{
-	color: black;
-}
+
 .carousel-item img .wedding-img{
 	width:10%;
 	height: 30px;
 }
 /* Footer Section */
+.map,.phone{
+	color: black;
+}
 .footer-section{
-	background-color:pink;
+
+	background-color:#EE959E;
 
 }
 .social-media .facebook,.social-media .instagram,.social-media .twitter{
@@ -97,31 +119,37 @@
 	font-size: 20px;
 	color:#58D3F7;
 }
+/* end of footer section */
 
-.container-section .transition-img .card:hover{
-	
-	position: absolute;
-	background-color:pink;
-	border-bottom: 1px solid pink;
-	font-size:1.2rem;
-	padding:10px 0;
-	transition: all ease-out .22s;
-	border-radius: 5px solid #CD5E77; 
-	
-	
-	
+ 
+.transition-img .card,.transition-img .card-body-fluid,.transition-img .card img{
+	border-radius:5px;
+}
+.section-offer .transition-img .card:hover{
+	border-color: #CD5E77;
+	box-shadow: 5px 5px  #EE959E;
 }
 .card{
 	background-color: white;
 }
-.bg-gray-light{
-	background-color: #F7F7F7;
+.bg-profolio img{
+	border-radius: 5px;
 }
+
 .bg-color{
 	background-color:lightgray;
 	border-radius: 1px;
 }
-/* .bg-profolio{
-	background-color:lightgray;
-} */
+.latest_p{
+	font-family: 'peddana';
+	font-size:20px;
+}
+.latest_h3{
+	font-family: 'peddana' ;
+}
+.latest_a{
+	font-family:'peddana';
+}
+
+
 
