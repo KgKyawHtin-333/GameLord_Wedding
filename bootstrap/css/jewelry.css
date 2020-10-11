@@ -15,7 +15,7 @@ div.card img{
 	transition: all 0.5s ease;
 }
 
-div.card:hover img{
+div.card:hover{
 	transform: scale(0.95);
 }
 
