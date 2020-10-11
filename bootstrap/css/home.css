@@ -1,6 +1,6 @@
 /* start of navigation */
 .nav-link{
-	font-size: 1.5rem;
+	font-size: 1.4rem;
 	font-family: 'roboto';
 
 }
@@ -21,6 +21,7 @@ img.logo-image{
 	}
 .navbar-brand,.foral_design,.cake_design,.dress_design,.jewelry{
 		font-family: 'niconne';
+		
 	}
 .What_we_offer,h2.carousel_text,.profolio,.lastest_post,.carousel_text,.content,.rights,.content_one{
 		font-family:'lobster';
@@ -36,12 +37,7 @@ img.logo-image{
 	}
 
 /* end of navigation */
-
-
-
-
- 
- .card-body img{
+.card-body img{
 	display: block;
     max-width: 100%;
 	height: auto;
@@ -84,13 +80,6 @@ hr.divided_by:before {
 
 /* navigation */
 
-/* .navlink :hover{
-	color:#EE959E;
-	border-bottom: 2px solid #CD5E77;
-	font-size:1.7rem;
-	padding:15px 0;
-	transition: all 0.10s ease-in;
-} */
 
 .container img{
 	width:100%;
