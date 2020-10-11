@@ -11,7 +11,7 @@
 }
 
 div.card img{
-	
+
 	transition: all 0.5s ease;
 }
 
@@ -19,13 +19,6 @@ div.card:hover img{
 	transform: scale(0.95);
 }
 
-.gold3{
-	padding-bottom: 36px;
-}
-
-.jewelry23{
-	padding-bottom: 18px;
-}
 
 div.card-body p,
 div.card-body a{
