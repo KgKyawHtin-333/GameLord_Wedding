@@ -6,7 +6,8 @@
 }
 
 img.logo-image{
-	max-width: 4%;
+	max-width: 5%;
+
 	 }
 .nav-bg-color{
 		background-color: lightgray;
@@ -29,6 +30,9 @@ img.logo-image{
 .profolio,.lastest_post,.content,.rights,.What_we_offer{
 		color:#EE959E;
 	
+	}
+	a.navbar-brand{
+		font-size: 2rem;
 	}
 
 /* end of navigation */
@@ -152,6 +156,23 @@ hr.divided_by:before {
 .latest_a{
 	font-family:'peddana';
 }
+
+.bg-graylight{
+	background-color:lightgray;
+}
+iframe{
+	size: 30px;
+
+}
+.contact_text{
+	font-family: 'roboto';
+}
+
+
+
+
+
+
 
 
 
