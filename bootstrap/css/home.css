@@ -148,13 +148,14 @@ hr.divided_by:before {
 }
 .latest_p{
 	font-family: 'peddana';
-	font-size:20px;
+	font-size:30px;
 }
 .latest_h3{
 	font-family: 'peddana' ;
 }
 .latest_a{
 	font-family:'peddana';
+	font-size:30px;
 }
 
 .bg-graylight{
