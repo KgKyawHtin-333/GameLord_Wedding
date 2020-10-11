@@ -1,0 +1,62 @@
+.text_in_image{
+		position: absolute;
+		top: 120px;
+		left: 180px;
+		font-size: 40px;
+		color: white;
+		font-family: niconne;
+		word-spacing: 10px;
+		}
+
+		.margin{
+			max-width: 30.0rem;
+			border-width: .2rem;
+			border-color: white;
+		}
+
+		hr.style-seven {
+	    overflow: visible; /* For IE */
+	    height: 30px;
+	    width: 20%;
+	    border-style: solid;
+	    border-color: #EE959E;
+	    border-width: 1px 0 0 0;
+	    border-radius: 20px;
+		}
+		hr.style-seven:before { /* Not really supposed to work, but does */
+		    display: block;
+		    content: "";
+		    height: 30px;
+		    margin-top: -31px;
+		    border-style: solid;
+		    border-color: #EE959E;
+		    border-width: 0 0 1px 0;
+		    border-radius: 20px;
+		}
+		div.Img img{
+			width: 100% !important;
+			height: 500px !important;
+	
+			}
+			div.card img{
+				width: 260px !important;
+				height: 280px !important;
+			}
+			.title{
+				font-family: 'niconne';
+				font-size: 50px;
+				color: #EE959E;
+			}
+			div.card-body p, a{
+				font-family: 'roboto';
+				font-size: 18px;
+			}
+
+			div.card{
+				opacity: 0.8;
+				height: 27rem;
+				/*background-color:#EE959E; */
+			}
+			div.card:hover{
+				opacity: 1;
+			}

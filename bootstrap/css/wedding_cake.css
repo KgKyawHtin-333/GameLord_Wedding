@@ -1,0 +1,111 @@
+.titleWedding{
+	font-family: 'niconne';
+	font-size: 50px;
+	color: #EE959E;
+	
+}
+
+.text_in_image{
+	position: absolute;
+	top: 200px;
+	left: 180px;
+	font-size: 40px;
+	color: white;
+	font-family: niconne;
+	word-spacing: 10px;
+}
+
+.margin{
+	max-width: 30.0rem;
+	border-width: .2rem;
+	border-color: white;
+  
+   
+
+}
+
+
+
+.margin1{
+	/*max-width: 10.0rem;
+	border-width: .1rem;
+	border-color: #EE959E;*/
+	overflow: visible; /* For IE */
+    height: 30px;
+    width: 20%;
+    border-style: solid;
+    border-color: #EE959E;
+    border-width: 1px 0 0 0;
+    border-radius: 20px;
+}
+
+.margin1:before{
+	display: block;
+    content: "";
+    height: 30px;
+    margin-top: -31px;
+    border-style: solid;
+    border-color: #EE959E;
+    border-width: 0 0 1px 0;
+    border-radius: 20px;
+}
+
+.change_fontstyle{
+	font-family: niconne;
+	font-size: 30px;
+	color: #EE959E;
+}
+
+.footer_style{
+	background-color: pink;
+}
+
+.navfont{
+	font-size: 25px;
+	color: #EE959E;
+	font-family: lobster;
+}
+
+.navbrandfont{
+	font-size: 40px;
+	color: #EE959E;
+	font-family: niconne;
+}
+
+.footer-section{
+	background-color: pink;
+	color: blue;
+	font-family: roboto;
+	
+	word-spacing: 3px;
+
+}
+
+.card_style{
+	font-family: roboto;
+	word-spacing: 3px;
+	font-size: 17px;
+	color: blue;
+}
+
+.h1_style{
+	font-family: niconne;
+	color: #EE959E;
+}
+
+.image_transition:hover{
+      transform: scale(0.95);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

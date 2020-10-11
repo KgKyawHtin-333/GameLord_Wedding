@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Appointment </title>
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+
+	<link rel="stylesheet" type="text/css" href="font.css">
+
+	<link rel="stylesheet" type="text/css" href="fontawesome/css/all.min.css">
+
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/wedding_cake.css">
+	<style type="text/css">
+        *{
+        	background-color: light;
+        }
+
+		select{
+			padding: 7px;
+			border-radius: 10px;
+			
+		}
+
+		
+		h1{
+			font-family: roboto;
+			color: #EE959E;
+		}
+
+		label{
+			font-family: roboto;
+			color: #CD5E77;
+			font-size: 20px;
+		}
+
+		hr.margin {
+            overflow: visible; /* For IE */
+            height: 30px;
+            width: 20%;
+            border-style: solid;
+            border-color: #EE959E;
+            border-width: 1px 0 0 0;
+            border-radius: 20px;
+}
+         hr.margin:before { /* Not really supposed to work, but does */
+            display: block;
+            content: "";
+            height: 30px;
+            margin-top: -31px;
+            border-style: solid;
+            border-color: #EE959E;
+            border-width: 0 0 1px 0;
+            border-radius: 20px;
+}
+	</style>
+</head>
+<body>
+
+      <div class="container-fluid nav-bg-color">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <!-- <img src="images/logo.jpg" class="img-fluid ml-4 logo_image"> -->
+            <a href="" class="navbar-brand">Wedding World</a> 
+            <button class="navbar-toggler" type="button" data-target="#navigate" data-toggle="collapse" ><span class="navbar-toggler-icon bg-graylight"></span></button>
+            <div class="collapse navbar-collapse" id="navigate">
+              <ul class="navbar-nav ml-auto">
+               
+                <li class="nav-item"><a href="index.html" class="nav-link navlink">Home</a></li>
+                <li class="nav-item"><a href="about.html" class="nav-link navlink">About</a></li>
+                <li class="nav-item"><a href="service.html" class="nav-link navlink">Service</a></li>
+                <li class="nav-item"><a href="contact.html" class="nav-link navlink">Contact</a></li>
+                <li class="nav-item"><a href="appointment.html" class="nav-link btn btn-outline-danger">make a appointment</a></li>
+               
+            </ul>
+            </div>
+            
+       </nav>
+
+
+      <div class="container-fluid">
+      	<h1 class="text-center mt-1"> Register </h1>
+      	<hr class="margin">
+      	<div class="row">
+      		<div class="offset-md-4 col-md-4">
+      			
+      			<form>
+      				<div class="form-group"><!--Bootstrap mr date form atwt ready shi tl -->
+      					<label for="Date"> Choose Date </label>
+      					<input type="date" name="date" id="Date" required="" class="form-control">
+      					<p id="paragraph_five"></p>
+      				</div>
+      				
+      				<div class="form-group">
+						<label for="Name">Name</label>
+						<input type="text" name="" class="form-control" id="Name" required="">
+						<p id="paragraph_one"></p>
+					</div>
+					<div class="form-group">
+						<label for="Email">Email</label>
+						<input type="email" name="" class="form-control" id="Email" required="">
+						<p id="paragraph_two"></p>
+					</div>
+					<div class="form-group">
+						<label for="Phone">Phone</label>
+						<input type="number" name="" class="form-control" id="Phone" required="">
+						<p id="paragraph_three"></p>
+					</div>
+					<div class="form-group">
+						<label for="Address">Address</label>
+						<textarea class="form-control" id="Address" required=""></textarea>
+						<p id="paragraph_five"></p>
+					</div>
+                    
+                   
+					<a href="" class="btn btn-success submit_change required" style="padding: 10px;width: 100px;" > Submit </a>
+                   
+                    
+
+      			</form>
+      			
+      		</div>
+      	</div>
+      </div>
+
+<script type="text/javascript" src="bootstrap/js/jquery.min.js"></script>
+<script type="text/javascript" src="bootstrap/js/bootstrap.bundle.min.js"></script>
+<script type="text/javascript">
+	$(document).ready(function(){
+        
+        $("#paragraph_one").hide();
+        $("#paragraph_two").hide();
+        $("#paragraph_three").hide();
+        $("#paragraph_four").hide();
+        $("#paragraph_five").hide();
+        
+
+		$(".submit_change").click(function(){
+   
+            //input validation
+            if($("#Name").val() == ''){
+                 $("#paragraph_one").text("Please Enter your Name**").show();
+                 $("#Name").focus();
+                 return false;
+            }
+            else if($("Email").val() == ''){
+                 $("#paragraph_two").text("Please Enter your Email**").show();
+                 $("#Email").focus();
+                 return false;
+            }
+            else if($("#Phone").val() == ''){
+                 $("#paragraph_three").text("Please Enter your Phone Number**").show();
+                 $("#Phone").focus();
+                 return false;
+            }
+            else if($("#Address").val() == ''){
+                 $("#paragraph_four").text("Please Enter your Address**").show();
+                 $("#Address").focus();
+                 return false;
+            }
+            else if($("#Date").val() == ''){
+                 $("#paragraph_five").text("Please Enter your Date**").show();
+                 $("#Date").focus();
+                 return false;
+            }
+
+			// alert("ok");
+			var date = $("#Date").val();
+            var name = $("#Name").val();
+            var email = $("#Email").val();
+            var phone = $("#Phone").val();
+            var address = $("#Address").val();
+
+
+
+            var customer={
+            	date : date,
+            	name : name,
+            	email : email,
+            	phone : phone,
+                address : address
+            }
+
+            // console.log(customer);
+
+            var customerlist = localStorage.getItem("customers");
+            var customerArray;
+            if(customerlist==null){
+            	customerArray=[];
+            }else{
+            	customerArray = JSON.parse(customerlist);
+            }
+
+            customerArray.push(customer);
+
+            customerString = JSON.stringify(customerArray);
+            localStorage.setItem("customers" , customerString);
+
+		})
+	})
+</script>
+
+</body>
+</html>

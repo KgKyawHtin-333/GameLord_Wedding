@@ -1,0 +1,57 @@
+.titleDesign{
+	font-family: 'niconne';
+	font-size: 50px;
+	color: #EE959E;
+}
+
+.card-title{
+	font-family: 'niconne';
+	font-size: 30px;
+	color: #EE959E;
+}
+
+div.card img{
+	width: 253px !important;
+	height: 240px !important;
+	transition: all 0.5s ease;
+}
+
+div.card:hover img{
+	transform: scale(0.95);
+}
+
+.gold3{
+	padding-bottom: 36px;
+}
+
+.jewelry23{
+	padding-bottom: 18px;
+}
+
+div.card-body p,
+div.card-body a{
+	font-family: 'roboto';
+	font-size: 18px;
+}
+
+div.Img img{
+	width: 100% !important;
+	height: 500px !important;
+
+	}
+
+.text_in_image{
+	position: absolute;
+	top: 120px;
+	left: 180px;
+	font-size: 40px;
+	color: white;
+	font-family: niconne;
+	word-spacing: 10px;
+}
+
+.margin{
+	max-width: 30.0rem;
+	border-width: .2rem;
+	border-color: white;
+}

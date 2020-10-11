@@ -1,0 +1,24 @@
+@font-face{
+	font-family: 'niconne';
+	src:url('fonts/Niconne-Regular.ttf');
+}
+@font-face{
+	font-family: 'roboto';
+	src:url('fonts/Roboto-Regular.ttf');
+}
+@font-face{
+	font-family: 'firasan';
+	src:url('fonts/FiraSans-Regular.ttf');
+}
+@font-face{
+	font-family: 'lobster';
+	src:url('fonts/Lobster-Regular.ttf');
+}
+@font-face{
+	font-family: 'peddana';
+	src:url('fonts/Peddana-Regular.ttf');
+}
+@font-face{
+	font-family: 'devid';
+	src:url('fonts/DavidLibre-Medium.ttf');
+}
