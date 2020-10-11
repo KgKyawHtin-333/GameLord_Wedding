@@ -20,7 +20,7 @@ $(document).ready(function(){
       var itemString=JSON.stringify(itemlistArray);
       localStorage.setItem("Booking", itemString);
     })
-  $(".jewellery").click(function(){
+  $(".jewelry").click(function(){
 
     // alert("OK");
 
@@ -77,8 +77,8 @@ $(document).ready(function(){
     var bprice=$(this).data('bprice')
     // console.log (dname);
     var Booking ={
-      dname:dname,
-      bname:bname
+      bname:bname,
+      bprice:bprice
     }
     
     var itemlist=localStorage.getItem("Booking");
@@ -102,7 +102,7 @@ $(document).ready(function(){
     // console.log (dname);
     var Booking ={
       cname:cname,
-      cname:cname
+      cprice:cprice
     }
     
     var itemlist=localStorage.getItem("Booking");
@@ -118,3 +118,4 @@ $(document).ready(function(){
     var itemString=JSON.stringify(itemlistArray);
     localStorage.setItem("Booking", itemString);
   })
+})
