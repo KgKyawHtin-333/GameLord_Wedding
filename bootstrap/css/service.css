@@ -15,7 +15,7 @@ hr.style-seven {
     width: 20%;
     border-style: solid;
     border-color: #EE959E;
-    border-width: 1px 0 0 0;
+    border-width: 1px 0 0 0;;
     border-radius: 20px;
 }
 hr.style-seven:before { /* Not really supposed to work, but does */
@@ -29,7 +29,8 @@ hr.style-seven:before { /* Not really supposed to work, but does */
     border-radius: 20px;
 }
 .card-title{
-    font-size:20px;
+    font-size:25px;
+    font-family: lobster;
 }
 div.card-body p,
 div.card-body a{
@@ -62,7 +63,7 @@ img.logo-image{
     }
     
 .navbar-toggler-icon{
-     background-color:#EE959E; 
+     
     }
 .navbar-brand,.foral_design,.cake_design,.dress_design,.jewelry{
         font-family: 'niconne';
